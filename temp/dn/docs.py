@@ -4,6 +4,7 @@ from mongoengine import (connect, Document, StringField,
                          URLField, ListField,
                          EmbeddedDocument, EmbeddedDocumentField)
 
+from djangotoolbox.fields import ListField
 
 connect('test')
 
